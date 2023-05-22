@@ -1,25 +1,6 @@
-.slider {
-  &__slides {}
-  &__nav {}
 
-}
-
-.slides {
-  &__slide {}
-  &__box {}
-  &__hdl {}
-  &__lead {}
-  &__link {}
-
-}
-
-
-.nav {
-  &__btn {
-    &.nav__btn--prev {
-
-    }
-
-  }
-
-}
+@import "noramlize";
+@import "variables";
+@import "functions";
+@import "global";
+@import "slider";
