@@ -1,0 +1,16 @@
+@import "../variables";
+
+$fonts: ("Roboto Black": "roboto-black-webfont", "Roboto Medium": "roboto-medium-webfont");
+
+@mixin font-face($name, $filename) {
+  @font-face {
+    font-family: $name;
+    src: url('#{$font-path}/#{$filename}.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+}
+
+@include font-face("Roboto Black", "roboto-black-webfont");
+//@each $name, $filename
